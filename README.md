@@ -1,7 +1,7 @@
 # Cipher Schools Daily Code Practice
 
 <div align="center">
-  <img src="banner.png" alt="Coding Banner" width="600" />
+  <img src="banner.png" alt="Coding Banner" width="1000" />
 </div>
 
 <p align="center">
