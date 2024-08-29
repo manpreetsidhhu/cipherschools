@@ -3,6 +3,7 @@
 #include <iomanip>
 using namespace std;
 
+
 int question1(string a, string b){
     cout<<"Answer of 1st question of Day 1: ";
     cout<<a<<b<<endl;
