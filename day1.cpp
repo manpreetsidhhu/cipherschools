@@ -24,7 +24,7 @@ int question3(int n){
 
 int main(){
     int n;
-    cout<<"Enter Question number of Day 1: ";
+    cout << "Enter Question number (1-3): ";
     cin>>n;
     if(n==1){
         string a;
