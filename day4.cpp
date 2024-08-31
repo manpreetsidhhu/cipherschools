@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Function for Question 1: Arithmetic operations on two integers
 int question1(int a, int b) {
     cout << "Addition: " << a + b << endl;
     cout << "Subtraction: " << a - b << endl;
@@ -18,19 +17,16 @@ int question1(int a, int b) {
     return 0;
 }
 
-// Class for Question 2: Complex number operations
 class Complex {
 public:
     int real, imag;
 
     Complex(int r = 0, int i = 0) : real(r), imag(i) {}
 
-    // Overloading + operator
     Complex operator + (const Complex& obj) {
         return Complex(real + obj.real, imag + obj.imag);
     }
 
-    // Overloading - operator
     Complex operator - (const Complex& obj) {
         return Complex(real - obj.real, imag - obj.imag);
     }
